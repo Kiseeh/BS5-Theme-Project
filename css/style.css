@@ -132,7 +132,7 @@ img {
     right: 0;
 }
 
-.owl-next :hover,
-.owl-prev :hover {
+.owl-next:hover,
+.owl-prev:hover {
     background-color: #ff4d29 !important;
 }
