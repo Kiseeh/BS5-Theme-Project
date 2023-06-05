@@ -33,6 +33,20 @@ section {
     background-position: center !important;
 }
 
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 400;
+    color: #ff4d29;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
 /* NAVBAR */
 .top-nav {
     background-color: #ff4d29;
@@ -149,6 +163,36 @@ section {
 }
 
 .info-box img {
+    width: 90px;
+    margin-right: 28px;
+}
+
+/* MILESTONE */
+#milestone {
+    background: linear-gradient(rgba(255, 76, 41, 0.9), rgba(255, 76, 41, 0.9)), url(../img/bg_banner2.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color: #fff;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
+
+/* SERVICES */
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img {
     width: unset;
-    margin-right: 18px;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
