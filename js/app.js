@@ -31,10 +31,13 @@ $(document).ready(function(){
         navText: ['PREV', 'NEXT'],
         responsive:{
             0:{
+                items: 1,
                 nav: false,
+                margin: 0,
             },
             768: {
                 nav: true,
+                items: 2,
             },
             1148: {
                 items: 2,
