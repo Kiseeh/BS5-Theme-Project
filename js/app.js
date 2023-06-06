@@ -24,9 +24,11 @@ $(document).ready(function(){
     $('#project-slider').owlCarousel({
         loop:true,
         margin:0,
-        nav:false,
+        nav:true,
         dots:false,
         smartSpeed:1000,
+        margin: 24,
+        navText: ['PREV', 'NEXT'],
         responsive:{
             0:{
                 nav: false,
@@ -35,7 +37,8 @@ $(document).ready(function(){
                 nav: true,
             },
             1148: {
-
+                items: 2,
+                center: true,
             }
         }
     })
